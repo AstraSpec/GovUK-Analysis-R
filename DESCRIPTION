@@ -1,0 +1,7 @@
+Package: govuk
+Title: GovUK 
+Description: Analyses UK Gov CSV files
+Version: 1.0
+Authors@R: person("Rizvan", "Faisal", role = c("aut", "cre"))
+License: MIT + file LICENSE
+Video:
