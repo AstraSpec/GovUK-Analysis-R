@@ -13,6 +13,9 @@ get_package <- function(query = "debt") {
   )
 }
 
-a <- get_package()
-b <- get_csv_data(a)
-print(b)
+packages <- get_package("debt")
+csvs <- get_csv_data(packages)
+csv <- csvs$csv_url[1]
+data <- load_csv_data(csv)
+
+View(data)
