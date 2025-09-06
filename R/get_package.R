@@ -18,5 +18,5 @@ csvs <- get_csv_data(packages)
 csv <- csvs$csv_url[1]
 data <- load_csv_data(csv)
 clean_data <- clean_csv_data(data)
-
-View(clean_data)
+p <- plot_csv_data(clean_data, "InvoiceMonth", "MeatIndustry", "Temporary name")
+print(p)
