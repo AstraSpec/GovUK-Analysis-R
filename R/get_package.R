@@ -13,7 +13,7 @@ get_package <- function(query = "debt") {
   )
 }
 
-packages <- get_package("debt")
+packages <- get_package("education")
 csvs <- get_csv_data(packages)
 csv <- csvs$csv_url[1]
 data <- load_csv_data(csv)
