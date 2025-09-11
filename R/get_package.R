@@ -13,10 +13,10 @@ get_package <- function(query = "debt") {
   )
 }
 
-packages <- get_package("education")
-csvs <- get_csv_data(packages)
-csv <- csvs$csv_url[1]
-data <- load_csv_data(csv)
-clean_data <- clean_csv_data(data)
-p <- plot_csv_data(clean_data, "InvoiceMonth", "MeatIndustry", "Temporary name")
-print(p)
+#packages <- get_package("debt")
+#csvs <- get_csv_data(packages)
+#csv <- csvs$csv_url[1]
+#data <- load_csv_data(csv)
+#clean_data <- clean_csv_data(data)
+#p <- plot_csv_data(clean_data, "InvoiceMonth", "MeatIndustry", "Data set")
+#print(p)
