@@ -5,6 +5,9 @@
 \usage{
 load_csv_data(csv_url)
 }
+\arguments{
+\item{csv_url}{The URL of the CSV file}
+}
 \value{
 Returns a tibble of the package name, URL and format.
 }

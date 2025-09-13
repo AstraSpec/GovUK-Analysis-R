@@ -5,6 +5,12 @@
 \usage{
 plot_csv_data(df, x_col, y_col, title = "Data Plot")
 }
+\arguments{
+\item{df}{The data being plotted}
+\item{x_col}{Name of the data to use for the x-axis}
+\item{y_col}{Name of the data to use for the y-axis}
+\item{title}{Title of the plot}
+}
 \value{
 Returns a ggplot of a bar chart.
 }

@@ -5,6 +5,9 @@
 \usage{
 get_csv_data(data)
 }
+\arguments{
+\item{data}{Tibble of title, name and URL}
+}
 \value{
 Returns a tibble of the read CSV.
 }

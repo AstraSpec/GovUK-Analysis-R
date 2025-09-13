@@ -5,6 +5,9 @@
 \usage{
 clean_csv_data(df)
 }
+\arguments{
+\item{df}{The data being plotted}
+}
 \value{
 Returns a cleaned tibble.
 }
